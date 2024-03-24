@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Transact", "..\SQL Transact\SQL Transact.ssmssqlproj", "{98C412FE-7294-41F6-ADD7-85D886E72FAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE8FE53B-02B9-4D6D-BA6B-D082E7E7E912}.Default|Default.ActiveCfg = Default
+		{98C412FE-7294-41F6-ADD7-85D886E72FAE}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {723B3D40-5725-48AF-9678-7D77ED953FC8}
+	EndGlobalSection
+EndGlobal
