@@ -27,7 +27,7 @@ BEGIN
 		AND teacher = @teacher
 		AND [date] = @date
 		AND [time] = @time
-		--AND [date] = @holidiy
+		
 	)
 	Begin
 		Insert INTO Schudule 
@@ -35,7 +35,7 @@ BEGIN
 
 		VALUES (@group, @discipline,@teacher, @date, @time, IIF(@date<GETDATE(),1,0), @number_of_lesson+1),
 				(@group, @discipline,@teacher, @date, DATEADD (MINUTE,95, @time), IIF(@date<GETDATE(),1,0), @number_of_lesson+1)
-				--(@group, @discipline,@teacher, @date, @time, IIF(@holidiy<GETDATE(),1,0), NULL)
+				
 				
 	End
 	SET @number_of_lesson= @number_of_lesson+2
@@ -43,13 +43,14 @@ BEGIN
 			Set @date = Dateadd(Day, 2, @date)
 	Else 
 			Set @date = Dateadd(Day,3, @date)
-	--IF DATENAME(WEEKDAY, @holidiy) IN ('Суббота')
-	--		Set @holidiy = Dateadd(Day, 4, @holidiy)	 
+		 
 	
 	
 End	
 		
-		Execute my_sp_select_from_schudule 'PD_321'
+	--Execute my_sp_select_from_schudule 'PD_321'
+	Execute my_discipline_from_groups 'PD_321', '%SQL'
+
 	--Select 
 	--		lesson_id,
 	--		[Группа] = group_name,
