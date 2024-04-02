@@ -84,3 +84,7 @@ End
 	--	JOIN Disciplines ON (discipline = disciplin_id)
 	--	JOIN Teacher ON (teacher = teacher_id)
 	--Where group_name = @group_name
+
+	--Select ROW_NUMBER() OVER (Order by value) AS rownumber, value FROM string_split(@@learning_day, ',') 
+
+	

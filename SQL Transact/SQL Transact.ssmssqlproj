@@ -37,11 +37,35 @@
           <AssociatedConnUserName />
           <FullPath>SQLQueryDel.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQueryEXEC.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NN9KQGU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NN9KQGU</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryEXEC.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQueryInsert.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NN9KQGU:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-NN9KQGU</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQueryInsert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryPr.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NN9KQGU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NN9KQGU</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryPr.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryProc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NN9KQGU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NN9KQGU</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryProc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryProc2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NN9KQGU:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NN9KQGU</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryProc2.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

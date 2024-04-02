@@ -1,4 +1,4 @@
 USE [Acad_PD321(class)]
 
-EXECUTE my_select_from_schudule 'PD_321', '%ADO.NET%', '2024-03-26', '13:30','Ковтун', 'вторник', 'четверг', 'суббота'
---EXECUTE my_select_from_schudule
+EXECUTE my_sp_stacionar_to_schedule 'PV_211', 'Объектно-ориентированное програмирование на языке С++', '2023.02.10', '18:30','Ковтун', 'понедельник', 'пятница', 'воскресенье'
+EXECUTE my_select_from_schudule
